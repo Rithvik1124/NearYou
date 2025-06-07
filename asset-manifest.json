@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/NearYou/static/css/main.30933598.css",
+    "main.js": "/NearYou/static/js/main.4a0b78ee.js",
+    "static/js/453.39f7aff1.chunk.js": "/NearYou/static/js/453.39f7aff1.chunk.js",
+    "index.html": "/NearYou/index.html",
+    "main.30933598.css.map": "/NearYou/static/css/main.30933598.css.map",
+    "main.4a0b78ee.js.map": "/NearYou/static/js/main.4a0b78ee.js.map",
+    "453.39f7aff1.chunk.js.map": "/NearYou/static/js/453.39f7aff1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30933598.css",
+    "static/js/main.4a0b78ee.js"
+  ]
+}
