@@ -1,0 +1,97 @@
+.event-card {
+  border: 1px solid var(--muted-text);
+  border-radius: 8px;
+  padding: 20px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-bottom: 20px;
+}
+
+.event-tag {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+}
+
+.event-tag:hover {
+  opacity: 0.8;
+}
+
+
+.event-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.event-card p {
+  margin: 6px 0;
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+.event-card strong {
+  font-weight: bold;
+  color: var(--accent-color);
+}
+
+.event-card a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+
+.event-card a:hover {
+  text-decoration: underline;
+}
+.event-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: var(--text-color);
+}
+
+.event-info {
+  margin: 6px 0;
+  font-size: 1rem;
+}
+
+.event-label {
+  font-weight: bold;
+  color: var(--accent-color);
+  margin-right: 6px;
+}
+
+.event-value {
+  color: var(--text-color);
+}
+
+.event-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.event-tag {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.tag-filter-info button{
+  background-color: var(--accent-color);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+}
+.event-description {
+  margin-top: 12px;
+  line-height: 1.5;
+  color: var(--text-color);
+}
