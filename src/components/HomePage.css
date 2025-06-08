@@ -88,7 +88,7 @@
 /* Mission Section */
 .mission-section {
   background-color: var(--bg-color);
-  color: var(--text-color);  /* for paragraph */
+  color: var(--text-color);  
 }
 
 .mission-section h2 {
