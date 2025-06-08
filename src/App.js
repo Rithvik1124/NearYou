@@ -19,7 +19,8 @@ function App() {
       <div className="top-navbar">
         <div className="logo-section">
           <div className="logo">
-            <img src="/BRIDGE.png" alt="BRIDGE Logo" className="logo-icon" />
+            <img src={`${process.env.PUBLIC_URL}/BRIDGE.png`} alt="BRIDGE Logo" className="logo-icon" />
+
           </div>
         </div>
 
