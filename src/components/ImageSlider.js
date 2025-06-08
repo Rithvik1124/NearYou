@@ -25,7 +25,7 @@ function ImageSlider() {
 
   return (
     <div className="image-slider">
-      <img src={images[currentIndex]} alt={`Slide ${currentIndex}`} className="slider-image" />
+      <img src={`${process.env.PUBLIC_URL}/images[currentIndex]`} alt={`Slide ${currentIndex}`} className="slider-image" />
 
       <div className="overlay-content">
         <h1>
