@@ -1,7 +1,7 @@
 .find-events-page {
   background-color: var(--bg-color);
   color: var(--text-color);
-  min-height: 100vh; /* so it fills the screen */
+  min-height: 100vh; 
   padding: 40px 20px;
   padding-top: 40px;
 }
