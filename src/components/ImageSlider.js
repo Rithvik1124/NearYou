@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import './ImageSlider.css';
 
 const images = [
-  '/Blood Donor.jpg',
-  '/food_donation.webp',
-  '/rescue.jpg',
+  'public/Blood Donor.jpg',
+  'public/food_donation.webp',
+  'public/rescue.jpg',
 ];
 
 function ImageSlider() {
