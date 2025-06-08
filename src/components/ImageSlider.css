@@ -1,7 +1,7 @@
 .image-slider {
   position: relative;
-  width: 100vw;      /* Full width of viewport */
-  height: 100vh;     /* Optional: Full height of screen, or use 400px */
+  width: 100vw;      
+  height: 100vh;     
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -34,7 +34,7 @@ html, body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: rgba(0, 0, 0, 0.4); /* Optional: dark overlay on image */
+  background: rgba(0, 0, 0, 0.4); 
   padding: 20px;
 }
 
