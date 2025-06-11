@@ -34,7 +34,7 @@ function App() {
         <div className="theme-toggle">
           <button className="darkModeToggle" onClick={toggleTheme}>
             <img
-              src={darkMode ? 'toggle-light-mode.png' : 'toggle-dark-mode.png'}
+              src={darkMode ? `${process.env.PUBLIC_URL}/toggle-light-mode.png` : `${process.env.PUBLIC_URL}/toggle-dark-mode.png` }
               alt="Toggle Theme"
               className="theme-icon"
             />
